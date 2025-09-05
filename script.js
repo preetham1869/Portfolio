@@ -13,13 +13,13 @@ if (typingEl){
   }
   type();
 }
-function updateClock() {
-  const now = new Date();
-  document.getElementById("clock").innerText = 
-    now.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit', second:'2-digit'});
-}
-setInterval(updateClock, 1000);
-updateClock();
+// function updateClock() {
+//   const now = new Date();
+//   document.getElementById("clock").innerText = 
+//     now.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit', second:'2-digit'});
+// }
+// setInterval(updateClock, 1000);
+// updateClock();
 const quotes = [
   "Talk is cheap. Show me the code. – Preetham Velamala",
   "First, solve the problem. Then, write the code.",
@@ -67,3 +67,4 @@ function sendMessage(e){
   e.target.reset();
   return false;
 }
+
