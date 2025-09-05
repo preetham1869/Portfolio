@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Preetham Velamala | Portfolio</title>
+
+  <!-- Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <video autoplay muted loop playsinline id="bg-video">
+    <source src="./36784-412873690_small.mp4" type="video/mp4">
+  </video>
+  <!-- Hero -->
+  <header class="hero">
+    <div class="overlay"></div>
+    
+    <!-- Side items -->
+    <div class="side-socials">
+      <a href="https://github.com/Preetham1869" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://linkedin.com/in/preetham-velamala/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="mailto:23mh1a05l1@acoe.edu.in"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+
+    <div class="side-clock">
+      <span id="clock"></span>
+    </div>
+
+    <div class="side-quotes">
+      <p id="quote"></p>
+    </div>
+
+    <div class="side-github">
+      <img src="https://github-readme-stats.vercel.app/api?username=Preetham1869&show_icons=true&theme=radical" alt="GitHub Stats">
+    </div>
+
+    <!-- Hero content -->
+    <div class="hero-content">
+      <h1 class="gradient-text">Hi, I'm <span>Preetham Velamala</span></h1>
+      <p class="typing" data-words='["B.Tech CSE Student","Aspiring Software Engineer","Java | HTML | CSS | JS"]'></p>
+      <div class="cta">
+        <a href="#projects" class="btn">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Navbar -->
+  <nav class="nav">
+    <div class="container">
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container grid-2">
+      <div><img src="23MH1A05L1(new).jpg" alt="Profile" class="avatar"></div>
+      <div>
+        <h2 class="gradient-text">About Me</h2>
+        <p>
+          I am a Computer Science Engineering student at Aditya Educational Institutions,
+          passionate about building innovative projects and growing as a full-stack developer.
+          I enjoy problem solving, web development, and contributing to team success.
+        </p>
+        <div class="socials">
+          <a href="https://www.codechef.com/users/preetham_v054" target="_blank"><img src="codechef.png" alt="CodeChef"></a>
+          <a href="https://leetcode.com/Preetham1869" target="_blank"><img src="leetcode.png" alt="LeetCode"></a>
+          <a href="https://www.hackerrank.com/profile/preetham_v000" target="_blank"><img src="hackerrank.png" alt="HackerRank"></a>
+          <a href="https://www.geeksforgeeks.org/user/preetham_velamala_/" target="_blank"><img src="geeksforgeeks.png" alt="GeeksforGeeks"></a>
+          <a href="https://github.com/Preetham1869" target="_blank"><img src="github.png" alt="GitHub"></a>
+          <a href="https://www.linkedin.com/in/preetham-velamala/" target="_blank"><img src="linkedin.png" alt="LinkedIn"></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section alt">
+    <div class="container">
+      <h2 class="gradient-text">Skills</h2>
+      <div class="skills">
+        <div class="skill reveal"><span>Java</span><div class="bar"><div style="--pct:85%"></div></div></div>
+        <div class="skill reveal"><span>HTML</span><div class="bar"><div style="--pct:90%"></div></div></div>
+        <div class="skill reveal"><span>CSS</span><div class="bar"><div style="--pct:80%"></div></div></div>
+        <div class="skill reveal"><span>JavaScript</span><div class="bar"><div style="--pct:75%"></div></div></div>
+        <div class="skill reveal"><span>DBMS</span><div class="bar"><div style="--pct:70%"></div></div></div>
+        <div class="skill reveal"><span>Operating Systems</span><div class="bar"><div style="--pct:65%"></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="gradient-text">Projects</h2>
+      <div class="projects-grid">
+        <article class="card">
+          <img src="Application_tracker.jpg" alt="Internship/Application Tracker">
+          <div class="card-body">
+            <h3>Internship/Application Tracker</h3>
+            <p>Java, ArrayList, HashMap. Track, filter, and update applications.</p>
+            <div class="card-actions">
+              <a href="#" class="btn-sm">Live</a>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <img src="Budget_Buddy.png" alt="Budget Planner">
+          <div class="card-body">
+            <h3>Budget Planner</h3>
+            <p>HTML, CSS, JS. Visual spending tracker with custom categories.</p>
+            <div class="card-actions">
+              <a href="#" class="btn-sm">Live</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="section alt">
+    <div class="container">
+      <h2 class="gradient-text">Education</h2>
+      <ul class="timeline">
+        <li><div class="time">2023 – Present</div><div class="desc"><strong>B.Tech in Computer Science Engineering</strong> – ACET (Pursuing)</div></li>
+        <li><div class="time">Intermediate</div><div class="desc">CGPA: 9.24</div></li>
+        <li><div class="time">SSC</div><div class="desc">CGPA: 9.2</div></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="gradient-text">Contact</h2>
+      <div class="contact-grid">
+        <form class="contact-form">
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <textarea rows="5" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+        <div class="contact-info">
+          <p><i class="fa-solid fa-location-dot"></i> Andhra Pradesh, India</p>
+          <p><i class="fa-solid fa-envelope"></i><a href="mailto:23mh1a05l1@acoe.edu.in">&nbsp;Mail</a></p>
+          <p><i class="fa-brands fa-github"></i><a href="https://github.com/Preetham1869" target="_blank">&nbsp;GitHub</a></p>
+          <p><i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/in/preetham-velamala/" target="_blank">&nbsp;LinkedIn</a></p>
+          <a class="btn btn-outline" href="ATS_Resume.pdf" download>Download Resume</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <center><p>&copy; 2025 Preetham Velamala — All rights reserved.</p></center>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
