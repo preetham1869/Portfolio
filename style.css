@@ -186,7 +186,20 @@ body.dark .section.alt { background: rgba(0,0,0,0.6) }
 .side-github img { width: 100%; border-radius: 10px }
 
 footer { background: rgba(0,0,0,0.8); color: #cbd5e1; padding: 24px 0 }
-
+.scroll-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: linear-gradient(90deg, #10b981, #22d3ee, #3ffaf4);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
 .reveal { opacity: 0; transform: translateY(24px); transition: all .6s ease }
 .reveal.visible { opacity: 1; transform: none }
 
