@@ -10,6 +10,21 @@ html, body { scroll-behavior: smooth; margin: 0; padding: 0 }
   object-fit: cover;
   z-index: -2;
 }
+@media (max-width: 768px) {
+  #bg-video {
+    object-fit: contain;
+    background: #000;      
+  }
+}
+
+@media (max-width: 480px) {
+  #bg-video {
+    height: auto;
+    min-height: 100vh;
+    width: 100vw;
+    object-fit: cover; 
+  }
+}
 
 body {
   margin: 0;
@@ -246,3 +261,4 @@ footer { background: rgba(0,0,0,0.8); color: #cbd5e1; padding: 24px 0 }
 }
 
 @media (max-width: 480px) { .nav a { font-size: 0.8rem } }
+
